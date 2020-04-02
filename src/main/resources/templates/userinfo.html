@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+      <title> Spring Boot  Thymeleaf </title>
+      <link rel="stylesheet" th:href="@{/css/styles.css}"/>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<!-- 
+   <h1>User Details</h1>
+    <table>
+        <tr>
+         
+           <th >User Name</th>
+           <th >Gender</th>
+           <th>Marriage Status</th>
+           <th>Selected Profile</th>
+        </tr>
+        <tr th:each="user : ${allUsers}">
+		  <td th:text="${user.userName}">Title</td>
+		  <td th:text="${user.gender}">Gender</td>
+		  <td th:text="${user.married}">Marriage Status</td>
+		  <td th:text="${user.profile}">Profile</td>		  		  
+	    </tr>	
+	</table>
+	<a href="#" th:href="@{/user/createuser}">Add User</a>
+</body>
+
+ -->
+
+
+<div class="container">
+  <h2>User Details</h2>
+              
+  <table class="table table-hover table-sm">
+    <thead>
+      <tr>
+        <th >User Name</th>
+           <th >email</th> 
+         <th >password</th>
+           <th >Gender</th>
+           <th>Marriage Status</th>
+           <th>Selected Profile</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr th:each="user : ${allUsers}">
+		  <td th:text="${user.userName}">Title</td>
+		    <td th:text="${user.email}">email</td> 
+		    <td th:text="${user.password}">Password</td>
+		  <td th:text="${user.gender}">Gender</td>
+		  <td th:text="${user.married}">Marriage Status</td>
+		  <td th:text="${user.profile}">Profile</td>		  		  
+	    </tr>	
+
+    </tbody>
+  </table>
+<a href="#" th:href="@{/user/createuser}">Add User</a>
+</div>
+
+
+
+
+</html> 

@@ -1,0 +1,50 @@
+/* .error{
+    color: red;
+    font-size: 15px;
+}
+.user{
+    color: blue;
+    font-size: 15px;
+}
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}  */
+
+/* .social-login {
+	font-size: 25px;
+	color: #ffffff;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	opacity: 1;
+	transition: all 150ms ease-in-out;
+}
+
+.social-login:hover {
+	opacity: 0.8;
+}
+
+.social-login.facebook a {
+	background-color: #3b5998;
+}
+
+.social-login.google a {
+	background-color: #db4a39;
+}
+
+.social-login.facebook a, .social-login.google a {
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	margin: 10px;
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+} */
